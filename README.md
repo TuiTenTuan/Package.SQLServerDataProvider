@@ -10,15 +10,21 @@ Base on [KTeam](https://howkteam.vn/about)
 
 Visit me at [TuiTenTuan.com](http://tuitentuan.com)
 
-## Usage
+# Install
+`NuGet\Install-Package SQLServerDataProvider -Version 1.1.0`
 
-### Construction
-#### Normal
+# Github
+[Package.SQLServerDataProvider](https://github.com/TuiTenTuan/Package.SQLServerDataProvider)
+
+# Usage
+
+## Construction
+### Normal
 ``` C#
 string _connection = "Server=;Database=;User=;Password=;";
 DataProvider dp = new DataProvider(_connection);
 ```
-#### DI (in .Net core and .Net 6 or lasted)
+### DI (in .Net core and .Net 6 or lasted)
 .Net core 3.1 add this to ConfigureServices of Startup.cs file
 ```
 string _connection = "Server=;Database=;User=;Password=;"; //Can get in appsettings.json
@@ -33,8 +39,8 @@ string _connection = "Server=;Database=;User=;Password=;"; //Can get in appsetti
 builder.Services.AddTransient<IDataProvider>(new DataProvider(_connection));
 ```
 
-### Use
-#### Normal
+## Use
+### Normal
 ``` C#
 # Excute Query to return DataTable
 string query = "Select * from TempTable where id = @abc , name = @name";
@@ -52,7 +58,7 @@ object[] parameter = new object[] {"1", "abc"};
 int rowEffected = dp.ExcuteNonQuery(query, parameter);
 ```
 
-### DI (.Net core and .Net 6 or lasted)
+## DI (.Net core and .Net 6 or lasted)
 
 Construction in class
 ``` C#
