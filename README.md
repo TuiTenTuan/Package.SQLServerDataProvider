@@ -6,6 +6,7 @@ Very simple to execute SQL query for SQL Server
 
 # Author
 Tui Tên Tuấn - Professtional developer C#
+
 Base on [KTeam](https://howkteam.vn/about)
 
 Visit me at [TuiTenTuan.com](http://tuitentuan.com)
