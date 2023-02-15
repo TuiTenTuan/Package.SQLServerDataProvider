@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>SQLServerDataProvider</id>
+    <version>1.4.1</version>
+    <title>SQL Server Data Provider</title>
+    <authors>Tui Tên Tuấn</authors>
+    <description>Very simple to excute SQL Server query</description>
+    <copyright>Copyright © TuiTenTuan 2023</copyright>
+    <dependencies>
+      <group targetFramework=".NETFramework4.5" />
+	  <group targetFramework="net6.0" />
+	  <group targetFramework="net7.0" />
+	  <group targetFramework=".NETCoreApp3.1" />
+    </dependencies>
+  </metadata>
+</package>
