@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+    <Authors>Tui Tên Tuấn</Authors>
+    <Company>TuiTenTuan</Company>
+    <Product>SQLServerDataProvider</Product>
+    <PackageProjectUrl>https://github.com/TuiTenTuan/Package.SQLServerDataProvider</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/TuiTenTuan/Package.SQLServerDataProvider</RepositoryUrl>
+    <AssemblyVersion>1.4.1.0</AssemblyVersion>
+    <FileVersion>1.4.1.0</FileVersion>
+    <AssemblyName>SQLServerDataProvider</AssemblyName>
+    <Title>Very simple to excute SQL Server query</Title>
+    <Version>1.4.1</Version>
+    <Description>Very simple to excute SQL Server query</Description>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <IncludeSymbols>True</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
+  </ItemGroup>
+
+</Project>

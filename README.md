@@ -1,4 +1,4 @@
-# SQLServerDataProvider
+﻿# SQLServerDataProvider
 
 # SQL Server Data Provider
 
@@ -12,7 +12,7 @@ Base on [KTeam](https://howkteam.vn/about)
 Visit me at [TuiTenTuan.com](http://tuitentuan.com)
 
 # Install
-`NuGet\Install-Package SQLServerDataProvider -Version 1.3.0`
+`NuGet\Install-Package SQLServerDataProvider -Version 1.4.1`
 
 # Github
 [Package.SQLServerDataProvider](https://github.com/TuiTenTuan/Package.SQLServerDataProvider)
